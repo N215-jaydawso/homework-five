@@ -1,0 +1,21 @@
+nav {
+  max-width: $content-width;
+  background-color: $site-background;
+  margin: 0 auto;
+  min-height: $nav-footer-height;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    width: 100px;
+    height: 50px;
+    background-color: beige;
+  }
+
+  .links {
+    a {
+      text-decoration: none;
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.about {
+  margin: 0 auto;
+  max-width: $content-width;
+  height: 600px;
+  background-color: grey;
+
+  .about-header {
+    border-bottom: solid 2px #000;
+    width: 120px;
+    height: 50px;
+  }
+
+  .about-content {
+    margin: 0 auto;
+    max-width: $content-width;
+    height: 200px;
+  }
+
+  .client-one {
+    margin: 0 auto;
+    display: flex;
+    max-width: 722px;
+    position: relative;
+    margin-bottom: 37px;
+    background-color: beige;
+
+    .text {
+      width: 200px;
+      height: 100px;
+      float: right;
+      display: flex;
+      background-color: blue;
+    }
+
+    .client-image {
+      display: flex;
+      width: 250px;
+      height: 150px;
+      overflow: hidden;
+      margin-right: 21px;
+      background-color: lightblue;
+    }
+  }
+}
