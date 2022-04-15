@@ -1,0 +1,52 @@
+.about{
+margin-top: 110px;
+margin-bottom: 180px;
+
+
+.about-header{
+
+
+}
+.about-client-quotes{
+margin-top: 107px;
+
+
+
+.client-quote-title{
+
+}
+
+.client-box{
+    margin-bottom: 25px;
+    max-width: 722px;
+    //background-color: antiquewhite;
+    display: flex;
+    position: relative;
+
+    .client-image{
+        //background-color: aqua;
+width: 260px;
+height: 150px;
+overflow: hidden;
+margin-right: 21px;
+
+img {
+    width: 100%;
+}
+
+    }
+.client-quote{
+    max-width: 440px;
+    //background-color: purple;
+
+}
+.client-name{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+}
+}
+
+}

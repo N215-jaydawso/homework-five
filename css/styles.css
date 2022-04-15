@@ -67,47 +67,34 @@ footer .footer-content {
 }
 
 .about {
-  margin: 0 auto;
-  max-width: 980px;
-  height: 600px;
-  background-color: grey;
+  margin-top: 110px;
+  margin-bottom: 180px;
 }
-.about .about-header {
-  border-bottom: solid 2px #000;
-  width: 120px;
-  height: 50px;
+.about .about-client-quotes {
+  margin-top: 107px;
 }
-.about .about-content {
-  margin: 0 auto;
-  max-width: 980px;
-  height: 200px;
-}
-.about .client-one {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.about .about-client-quotes .client-box {
+  margin-bottom: 25px;
   max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
-  margin-bottom: 37px;
-  background-color: beige;
 }
-.about .client-one .text {
-  width: 200px;
-  height: 100px;
-  float: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: blue;
-}
-.about .client-one .client-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 250px;
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
   height: 150px;
   overflow: hidden;
   margin-right: 21px;
-  background-color: lightblue;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
