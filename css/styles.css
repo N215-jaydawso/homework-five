@@ -27,9 +27,8 @@ p {
 
 nav {
   max-width: 980px;
-  background-color: #79addc;
   margin: 0 auto;
-  min-height: 100px;
+  height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,6 +41,7 @@ nav .logo {
   height: 50px;
 }
 nav .links a {
+  color: black;
   text-decoration: none;
   margin-left: 20px;
 }
@@ -63,6 +63,9 @@ footer .footer-content {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+footer p {
+  color: white;
 }
 
 .about {
